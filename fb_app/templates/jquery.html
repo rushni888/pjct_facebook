@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    //     $(function(){
+    // $('p').click(function(){
+    //     // $('p').hide();
+    //     // $(this).hide();
+    //     $('p').css("background-color","yellow");
+    // });
+    //     });
+    // $(function(){
+    //     $('p').on("click",function(){
+    //         $(this).hide();
+
+    //     });  
+    // });
+  
+
+    </script>
+
+</head>
+<body>
+    <p>this is a para</p>
+    <button id="show">Show</button>
+    <button id="hide">Hide</button>
+    <script>
+        // $(document).ready(function(){
+        //   $("#hide").click(function(){
+        //     $("p").hide(1000);
+        //   });
+        //   $("#show").click(function(){
+        //     $("p").show();
+        //   });
+        // });
+
+        $(document).ready(function(){
+  $("p").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+    }, 
+    click: function(){
+      $(this).css("background-color", "yellow");
+    }  
+  });
+});
+        </script>
+    
+</body>
+</html>

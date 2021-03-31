@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid"> 
+        <!-- start of navigation links to other pages -->   
+              <div class="row">       
+                <div class="col-md-12">
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link link-dark" href="#">Home /</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-dark  " href="#">Accessories /</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fw-bold  disabled" href="#">Men Watches</a>
+                    </li>
+                  </ul>
+                </div>             
+             
+          <!-- end of navigation links to other pages --> 
+         
+        <!-- start of products display  -->
+                
+                  
+                    <div class="col-md-3 pb-1">
+                      <div class="card" style="width: 18rem;">
+                        <img src="{% static 'images/DanielKlein.webp'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Daniel Klein</h5>
+                          <p class="card-text">Women analogue Watch<br>Rs. 1312</p>
+                          <a href="#" class="btn orange-btn ">View Product</a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="{% static 'images/DressBerry.jpg'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dress Berry</h5>
+                          <p class="card-text">Women analogue Watch<br>Rs. 1399</p>
+                          <a href="#" class="btn orange-btn  ">View Product</a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="{% static '/ecom/images/Fossil.webp'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Fossil</h5>
+                          <p class="card-text">Women CECILE Watch<br>Rs. 6377</p>
+                          <a href="#" class="btn orange-btn ">View Product</a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="{% static '/ecom/images/French Connection.webp'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">French Connection</h5>
+                          <p class="card-text">Women analogue Watch<br>Rs. 2780</p>
+                          <a href="#" class="btn orange-btn ">View Product</a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="{% static '/ecom/images/MarieClaire.webp'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Marie Claire</h5>
+                          <p class="card-text">Women analogue Watch<br>Rs. 874</p>
+                          <a href="#" class="btn orange-btn ">View Product</a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="{% static '/ecom/images/Mast$Harbour.webp'%}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Mast $ Harbour</h5>
+                          <p class="card-text">Unisex Analogue Watch<br>Rs. 1319</p>
+                          <a href="#" class="btn orange-btn ">View Product</a>
+                        </div>
+                      </div>
+                    </div>   
+                    
+                    
+                    <div class="col-md-3 pb-1">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{% static '/ecom/images/DanielKlein.webp'%}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Daniel Klein</h5>
+                            <p class="card-text">Women analogue Watch<br>Rs. 1312</p>
+                            <a href="#" class="btn orange-btn ">View Product</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      
+                    <div class="col-md-3 pb-1">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{% static '/ecom/images/DanielKlein.webp'%}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Daniel Klein</h5>
+                            <p class="card-text">Women analogue Watch<br>Rs. 1312</p>
+                            <a href="#" class="btn orange-btn ">View Product</a>
+                          </div>
+                        </div>
+                      </div>                    
+                 
+        
+               
+        <!-- end of products display  -->
+              </div>    
+          </div>
+    
+</body>
+</html>

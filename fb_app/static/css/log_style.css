@@ -1,0 +1,53 @@
+/* set a background  */
+body{  
+background-color:rgb(243, 242, 242);} 
+/* styling form heading */
+h2{
+    text-align: center;
+    padding: 20px;}
+/* styling login form  */
+.loginform{
+    width: 382px;
+    margin: auto;  
+    padding: 80px;          
+    border-radius: 15px ; 
+    border: 1px solid steelblue;
+    border-top: 5px solid steelblue;
+    background-color: white;
+    box-shadow:  8px 10px steelblue;}
+/* style form labels */
+label{  
+    font-size: 17px; 
+    font-weight: bold;}
+ /* styling username and password textboxes  */
+.textboxes{
+    width: 300px;  
+    height: 30px; 
+    border: 1px solid gainsboro;
+    border-radius: 3px;  
+    padding-left: 8px;}
+/* styling error labels */
+small{
+    color: red;}
+/* styling submit button */
+#log{  
+    width: 300px;  
+    height: 30px;      
+    padding-left: 8px;  
+    border-radius: 17px;
+    color: white;
+    background-color: steelblue;} 
+/* set hover effect on submit button */
+#log:hover{
+    background-color:#407199;}
+/* styling forgot password link */
+a{  
+    float: right;
+    text-decoration: none; 
+    color: black; 
+    font-size: 14px;
+    font-weight: bolder;}  
+/* set hover effect on forgot password link  */
+a:hover{
+color: #1d364b;
+text-decoration:underline;   }

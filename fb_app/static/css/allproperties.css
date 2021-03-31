@@ -1,0 +1,219 @@
+/* color: */
+ 
+p{
+    color: aqua;
+    color: rgb(244, 188, 66);
+    color: #37e22b;
+    color: rgba(244, 188, 66, 0.5);
+}
+ 
+/*  background */
+ 
+/* div{
+     background-color: green;   
+     /* background clr + opacity */
+    background-color: green;
+    opacity: 0.3;
+    /* child elements inherit the same transparency */
+ 
+    /* Green background with 30% opacity */
+    background: rgba(0, 128, 0, 0.3) 
+} */
+p{
+    background-image: url('sky.jpg');
+    /* height and width */
+       height: 450px; 
+       width: 100%; 
+    /* background-size */
+    background-size: 300px 100px;    
+    /* background-repeat */  
+    background-repeat: no-repeat;
+    /* repeat horizontally */
+    background-repeat: repeat-x;
+    /* repeat vertically */
+    /* background-repeat: repeat-y; */
+    /* background-position: by default top left; */
+    background-position: center center;
+    /*  left center, center center ,50% 50% ,25px 75px (%not working)*/
+    /* background image should scroll or be fixed (will not scroll with the rest of the page) */
+    /* background-repeat: no-repeat;*/
+    /* background-position: right top;  */
+    background-attachment: scroll;
+    background-attachment: fixed;
+}
+/* Background-Shorthand Property */
+/* When using the shorthand property the order of the property values is:
+ 
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+ */
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+    /* if one missing no issue */
+  }
+  /* Border Properties */
+ 
+  h2{
+      /* STYLE */
+      border-style: dotted;
+ 
+      border-style: dotted dashed solid double;
+ 
+      border-top-style: dotted;
+      border-right-style: solid;
+      border-bottom-style: dotted;
+      border-left-style: solid;
+ 
+      border-style: dotted solid double;
+      /* top border is dotted
+      right and left borders are solid
+      bottom border is double */
+      
+      
+      /* WIDTH */
+ 
+      border-width: medium;
+      border-width: thick;
+      border-width: 2px;
+      border-width: 25px 10px 4px 35px;      
+      border-width: 20px 5px;
+     /* 20px top and bottom, 5px on the sides */
+ 
+     /* COLOR */
+     border-color: red;
+ 
+     /* BORDER SHORTHAND PROPERTY  */
+ 
+     border: 5px solid red;
+      WIDTH,STYLE,COLOR
+ 
+     /* Individual border properties for just one side */
+     border-left: 6px solid red;
+     background-color: lightgrey;
+ 
+     /* ROUNDED BORDERS  */
+ 
+     border: 2px solid red;
+     border-radius: 5px;
+ 
+    /* TEXT PROPERTIES */
+ 
+    /* TEXT COLOR */
+ 
+    color: blue;
+ 
+    /* TEXT ALIGNMENT */
+ 
+    text-align: center;
+    text-align: left;
+    text-align: right;
+ 
+    /*each line is stretched so that every line has equal 
+    width and the left and right margins are straight
+     (like in magazines and newspapers): */
+ 
+     /* div {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify; */
+ 
+    text-align: justify;
+ 
+  }
+  /*
+    set or remove decorations from text 
+    often used to remove underlines from links
+  */
+ 
+  a{
+    text-decoration: none;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+  }
+  /* TEXT-TRANSFORM */
+  /* p{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+  }
+  /* TEXT SPACING */
+ 
+  P{
+    text-indent: 50px;
+    /* indentation of the first line of a text */
+    
+    letter-spacing: 3px;
+    letter-spacing: -3px;
+    line-height: 0.8;
+    line-height: 1.8;
+    word-spacing: 10px;
+    word-spacing: -5px;
+ 
+    /* TEXT SHADOW */
+ 
+    text-shadow: 2px 2px;
+    text-shadow: 2px 2px red;
+    /* blur effect (5px) to the shadow  */
+    text-shadow: 2px 2px 5px red;
+ 
+    /* FONT */
+ 
+    /* chance that a font is not found 
+    or is not installed properly,backup fonts,
+    end the list with a generic font family name. */
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* FONT STYLE */
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+ 
+    /* FONT WEIGHT */
+ 
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: lighter;
+    font-weight: 900;
+ 
+    /* FONT VARIENT */
+ 
+    font-variant: normal;
+    font-variant: small-caps;
+ 
+    /* FONT SIZE */
+ 
+      /* zoom tool to resize the entire page. */
+    font-size: 14px;
+    font-size: 2.5em;
+      /* 16px=1 em
+       Npx/16= Nem */
+ 
+     font-size:10vw;
+    /* Responsive font size */
+    /* 1vw = 1% of viewport width */
+ 
+    /* Adding Google fonts */
+    /* styling google font */
+    
+ 
+ 
+  } */
+ 
+ 
+  /* chrom dev tools */
+  p{
+    transform: rotateX(50);
+    background-color: chartreuse;
+    margin-top: 350px;
+ 
+}
+ 
+ 
+ 

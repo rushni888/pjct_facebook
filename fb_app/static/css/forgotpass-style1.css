@@ -1,0 +1,44 @@
+body{
+    /* padding: 0;
+    margin: 0;  */
+    background-image: url('../images/background.jpg');
+    /* background-image: url('/static/images/background.jpg'); */
+}
+.fgtpass_form{
+    width: 382px;   
+    margin: 180px auto;   
+    /* 10rem 10vw 200px  */   
+    padding: 60px; 
+    border-radius: 15px;
+    background-color:whitesmoke;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;    
+}
+h4{
+    margin-bottom: 3px;
+}
+input[type="email"]{
+    width: 100%;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left:7px;  
+    margin-bottom: 7px;
+  
+    
+}
+.email{   
+    margin-bottom: 5px;
+}
+input[type="button"]{
+    height: 35px;
+    width: 35%;
+    margin: auto;
+    display: block;
+    background-color: slateblue;
+    color: white;
+    border-radius: 8px;      
+ 
+}

@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{% static 'js/trial.js'%}"></script>
+    <script> 
+    //Statements -separated by semicolons 
+    /*jhj
+    jjkljlk  -multi*/   
+        
+        document.write("hi hello");
+        document.write("<h1>hi hello</h1>");
+        /*Name should not be any predefined keyword(reserved words used in programming that have 
+        special meanings to the compiler)
+        eg var var=7;
+        First character-must be a letter ,underscore,dollar sign
+*/
+        num=10;
+        document.write(num +'<br>');
+        //weakly/loosely typed- did not have to specify any data type for the variable x in advance.
+        var num1=10,num2=20;
+        num3=num1+num2
+        console.log(num3)
+        // dynamically typed -
+        var length = 5;   // Number
+        var lastName = "baabtra";   // String
+        var flag = true;   // boolean
+        var name="anagha";
+        document.write(name+"<br>");
+        console.log(typeof(name));
+        document.write("Hello "+name +"<br>")
+        var result=name+num1;
+        document.write(result);
+        document.write(typeof(result));
+        var name=window.prompt("What is your name?", "Please enter your name here.");
+        document.write("Hello "+name)
+        var response = confirm('Are you sure want to continue?'+ 
+                            'Click OK to continue!');
+    //True if you click Ok and False if you click Cancel.
+    alert(response); 
+    // find if pgm
+
+        
+        
+
+       
+        
+    </script>
+</head>
+<body>
+    <br>
+    <button onclick='window.alert("hi,this is an alert");'>Alert button</button>
+    <button onclick='document.write("button clicked");'>click me</button>
+    <p id="demo">this is a para</p>
+    <span id="demo" onmouseover='document.getElementById("demo").style.color="yellow";'>move mouse over me</span>
+    <button onclick='document.getElementById("demo").innerHTML="para changed";'>change para</button>
+    <button onclick=change_para()>change para by function</button>
+    <button onclick=hide_para()>change para by function</button>
+    <script>
+        function change_para(){
+            document.getElementById("demo").innerHTML="para changed";
+            document.getElementById("demo").style.color="red";
+        }
+        function hide_para(){
+            document.getElementById("demo").style.display="none";
+        }
+    </script>
+
+    
+    
+</body>
+</html>
