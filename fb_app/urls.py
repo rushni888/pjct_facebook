@@ -16,6 +16,7 @@ urlpatterns = [
     path('signup',views.signup,name='signup'),
     path('layout',views.layout,name='layout'),
     path('viewprofile',views.viewprofile,name='viewprofile'),
+    path('file',views.file1,name='file'),
     # path('fbhomedummy',views.fbhomedummy,name='viewprofile'),
     
 ]

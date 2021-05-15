@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 # Create your models here.
 # class Destination:
@@ -18,17 +19,26 @@ from django.db import models
 #     username=models.CharField(max_length=260)
 #     password=models.CharField(max_length=20)
 
-class LoginDummy(models.Model):
-    user=models.CharField(max_length=260)
-    pwd=models.CharField(max_length=50)
 
 
-class UserDetails(models.Model):
-    firstname=models.CharField(max_length=50)
-    lastname=models.CharField(max_length=50)
-    dob=models.DateField()
-    gender=models.CharField(max_length=50)
-    user_id=models.ForeignKey(LoginDummy,on_delete=models.CASCADE)
+class ProfilePic(models.Model):
+    pic=models.FileField(upload_to='profilepicture/')
+    fk_user=models.ForeignKey(LoginDummy,on_delete=models.CASCADE)
+
+class FileUpload(models.Model):
+    name=models.CharField(max_length=200)
+    pic=models.FileField(upload_to='files/')
+
+
+
+
+
+# class Friends(models.Model):
+#     sender=models.ForeignKey(LoginDummy,on_delete=models.CASCADE)
+#     reciever=models.ForeignKey(LoginDummy,on_delete=models.CASCADE)
+#     status=models.BooleanField(default=False)
+# dob=models.DateField(default=datetime.date.today)
+
 
 
 
